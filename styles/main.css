@@ -1,9 +1,78 @@
 body {
-    background-color: #791515;
-    color: cornsilk;
+    background-color: grey;
+    font-family: 'Montserrat', sans-serif;
 }
 
-h1 { 
+header {
+    background-color: black;
+    padding: 20 px 0;
+    width: auto;
+    height: 240px;
+
+}
+ header img{
+    width: 150px;
+    height: 150px;
+    margin-top: 35px;
+ }
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    margin-right: 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: darkred;
+    text-decoration: underline;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+}
+.imagenricardo {
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
+}
+
+table {
+    width: 30%; background-color: #412929; 
+    border-width: 1px;  
+    border-style: solid;
+    border-color: black;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    padding:40px;
+    height: 200px;
+}
+
+
+
+/*h1 { 
     text-align: center;
 }
 .portada {
@@ -13,9 +82,5 @@ h1 {
     width: 50%;
 }
 
-table {
-    width: 30%; background-color: #412929; 
-    border-width: 1px;  
-    border-style: solid;
-    border-color: black;
-}
+    
+*/
